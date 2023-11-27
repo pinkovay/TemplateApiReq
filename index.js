@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000
 
 const app = require('./helpers/expressConfig')
 
-// Importando as rotas do ProdutoController.js
+// Importando as rotas
 const testeFirebase = require('./controller/testeFirebase');
 app.use("/firebase", testeFirebase)
 
